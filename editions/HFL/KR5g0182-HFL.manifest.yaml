@@ -1,0 +1,53 @@
+canonical_identifier: bkk:krp/KR5g0182/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5g0182/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 上清外國放品青童內文
+  date: '2015-08-29 02:59:39.104054'
+  source:
+    repository: kanripo
+    path: KR5g0182
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5g0182_000-HFL.yaml, hash: 'sha256:92ca6af7f70a174a549ba534f95a26499d980d891f898f6bcd4fd46492613a54'}
+  - {seq: 1, filename: KR5g0182_001-HFL.yaml, hash: 'sha256:8ee16d3edcd53c74dfa5a9c71114d44be9f24f3c0230f0415fb3c87e98c131b5'}
+  - {seq: 2, filename: KR5g0182_002-HFL.yaml, hash: 'sha256:a72613193ce099318edf3dbda3d67eed0c84cdc07410bedccc44da2d1b483b7d'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5g0182_001-HFL.markers.yaml, hash: 'sha256:b8e0cd7398987f58783c26428e38e6df388a0bdfc7bc489ea41492fac117d3d3'}
+  - {seq: 2, role: markers, filename: assets/KR5g0182_002-HFL.markers.yaml, hash: 'sha256:134d0b718aa2339b2f38bbbc4112bfa6282169fc947e6c83969c2f99c8554857'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR5g0182_HFL_001-001a
+    span:
+    - body
+    - 0
+    - 5617
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR5g0182_HFL_002-001a
+    span:
+    - body
+    - 0
+    - 10103
+  label: juan 002
+  type: section
+  level: 1
+hash: sha256:f1a699d783ec800aeaefb5d93e47cc47aadc6d6a72cd3e20328fee3406678faa

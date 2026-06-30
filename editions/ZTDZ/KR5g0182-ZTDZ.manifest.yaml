@@ -1,0 +1,64 @@
+canonical_identifier: bkk:krp/KR5g0182/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5g0182/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 上清外國放品青童內文
+  date: '2015-08-29 02:59:39.104054'
+  source:
+    repository: kanripo
+    path: KR5g0182
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5g0182_000-ZTDZ.yaml, hash: 'sha256:8bf394d58356591685877467c52bbea77c2a181c120fd996d2232579f04e27fc'}
+  - {seq: 1, filename: KR5g0182_001-ZTDZ.yaml, hash: 'sha256:804910ff626b29fa18d79881cbb5a9062e63ba1a088aea155f70e2f5b56dafe9'}
+  - {seq: 2, filename: KR5g0182_002-ZTDZ.yaml, hash: 'sha256:9448a27de0ab19b339c2372799f40207b6493799c7c04f415d819ba26b32aec0'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5g0182_000-ZTDZ.markers.yaml, hash: 'sha256:af10146c289c349266c954f65af7649a1a1cae6c5db8fbc44e5b925bfdc3db82'}
+  - {seq: 1, role: markers, filename: assets/KR5g0182_001-ZTDZ.markers.yaml, hash: 'sha256:da75c08f4f18198a54cabe94ba0ed59e85400beb2c2bc5dcd5f1745d73874c4c'}
+  - {seq: 2, role: markers, filename: assets/KR5g0182_002-ZTDZ.markers.yaml, hash: 'sha256:f140013f89269f907e73bf409a37ba4fad008bcb4040488445c8574137bf63a7'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: ''
+    span:
+    - body
+    - 0
+    - 0
+  label: juan 000
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR5g0182_SJB_001-340008c
+    span:
+    - body
+    - 0
+    - 5617
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR5g0182_SJB_002-340017a
+    span:
+    - body
+    - 0
+    - 10103
+  label: juan 002
+  type: section
+  level: 1
+hash: sha256:4c7f669a7b25ed283f69b3efec084d4fd309d18f4218623cefd9a8dcd62f3b1f
